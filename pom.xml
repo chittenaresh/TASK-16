@@ -60,17 +60,18 @@
       <version>4.10.1</version>
     </dependency>
   </dependencies>
-
-  <distributionManagement>
-    <repository>
-      <id>maven-releases</id>
-      <url>http://3.108.227.143:8081/repository/maven-releases/</url>
-    </repository>
+<distributionManagement>
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <url>http://3.108.227.143:8081/repository/maven-snapshots/</url>
+        <id>maven-snapshots</id>
+        <url>http://3.108.227.143:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-  </distributionManagement>
+
+    <repository>
+        <id>maven-releases</id>
+        <url>http://3.108.227.143:8081/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
+
 
   <build>
     <finalName>EcommerceApp</finalName>
