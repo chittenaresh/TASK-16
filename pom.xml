@@ -62,18 +62,16 @@
   </dependencies>
 <distributionManagement>
     <snapshotRepository>
-        <id>maven-snapshots</id>
+        <id>nexus-snapshots</id>
         <url>http://3.108.227.143:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 
     <repository>
-        <id>maven-releases</id>
+        <id>nexus-releases</id>
         <url>http://3.108.227.143:8081/repository/maven-releases/</url>
     </repository>
 </distributionManagement>
-
-
-  <build>
+ <build>
     <finalName>EcommerceApp</finalName>
 
     <plugins>
